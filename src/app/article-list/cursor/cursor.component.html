@@ -1,0 +1,32 @@
+<div class="col-md-12" *ngFor="let item of cursor">
+
+  <div class="col-md-12" data-aos="zoom-in">
+    <app-card [content]="item" [link_text]="link_text" [type]="type"></app-card>
+  </div>
+
+  <!-- <div class="card">
+    <div class="image-data">
+      <div class="bgimg" style="background-image: url({{item.preview}});"></div>
+      <div class="publication-details">
+      </div>
+    </div>
+    <div class="post-data">
+      <h2 class="title">{{item.title}}</h2>
+      <h5 class="sub-title">By {{item.author}}</h5>
+      <p class="department">{{item.department}}</p>
+      <div class="content-info">
+        <p>{{item.description}}</p>
+        <p>{{item.date}}</p>
+
+
+      </div>
+      <div class="cta">
+        <a (click)="gotoCursor(item.id)">Read more &rarr;</a>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+</div>

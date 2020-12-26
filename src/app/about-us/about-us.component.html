@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="row justify-content-center logondesc">
+    <div class="col-lg-4 col-md-8 align-self-center text-center mb-4">
+      <img src="assets/images/CSAU_logo.png" alt="CSAU Logo" class="logo" width="100%" />
+    </div>
+    <div class="col-lg-6 col-md-10 align-self-center mb-4">
+      <p class="descr">
+        Computer Society of Anna University is a student club functioning under the Ramanujan Computing Centre,
+        Anna University. With the prestige of being one of the oldest technical clubs of CEG, the club aims at bringing
+        the students together to grow through knowledge sharing and to make them realize their potential and nourish it.
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-center mb-5">
+    <div class="col-md-10">
+      <p class="descr">
+        We at CSAU work towards disseminating knowledge about technology. We bring together the knowledge and
+        co-operation of peers, juniors and alumni to create an informative network through which we create awareness
+        about the current technologies and help in upskilling. Various events has been organised as student initiatives
+        throughout the year where various spokespersons from the industry have been invited to shed light upon the
+        students to nurture their wisdom. Cursor is our official campus magazine, which acts as a medium to spread
+        knowledge and updated technology awareness through tech articles published by students.
+      </p>
+
+    </div>
+  </div>
+  <div class="row justify-content-center text-center mt-5">
+    <div class="col-xs-4">
+      <h2 class="contentHeading">BOARD MEMBERS</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row justify-content-around text-center membersListRow">
+    <div class="col-lg-3 col-md-5 col-sm-6 d-flex justify-content-center mb-4 membersDiv"
+      *ngFor="let member of BoardMembers">
+      <a href={{member.linkedinURL}} target="_blank" class="membersDetailsLink py-2">
+        <ul>
+          <li><img src={{member.imagePath}} class="membersImagePadding">
+          </li>
+          <li class="membersName">{{member.name}}</li>
+        </ul>
+      </a>
+    </div>
+  </div>
+  <div class="row justify-content-center text-center mt-5">
+    <div class="col-xs-4">
+      <h2 class="contentHeading">WEBSITE DEVELOPERS</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row justify-content-around text-center mb-4" style="text-align: justify;">
+    <div class="col-md-4">
+      <ul class="developersUL">
+        <li><a href="https://www.linkedin.com/in/paargav-shanker-b6708a194/">Paargav Shanker Su</a></li>
+        <li><a href="https://adhitya-raj.github.io/">Adhitya Raj R</a></li>
+        <li><a href="https://www.linkedin.com/in/arun-tk-5aa809202/">Arun TK </a></li>
+        <li><a href="https://www.linkedin.com/in/ashwin-menon-b698801a1">Ashwin Menon</a></li>
+        <li><a href="https://www.linkedin.com/in/harishankar-h-68bbb0184">Harishankar H</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <ul class="developersUL">
+        <li><a href="https://www.linkedin.com/in/karthikeyan-r-6245591b5">Karthikeyan R</a></li>
+        <li><a href="https://www.linkedin.com/in/karthikeyan-s-4000b9200/">Karthikeyan S</a></li>
+        <li><a href="https://www.linkedin.com/in/rohith-msr-768763202">Rohith M S R</a></li>
+        <li><a href="https://www.linkedin.com/in/rohith-shanmugam-1a563b1a6">Rohith S</a></li>
+        <li><a href="https://www.linkedin.com/in/vishnu-vasan-r-6a76341a0">Vishnu Vasan R</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

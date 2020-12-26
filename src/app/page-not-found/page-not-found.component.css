@@ -1,0 +1,20 @@
+.container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 90%;
+}
+
+.para1 {
+  font-family: Font-Medium600;
+  font-size: 30px;
+}
+
+.para2 {
+    font-family: Font-Regular500;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}

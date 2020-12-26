@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+.container-fluid.text-center {
+  font-family: "Font-Regular500";
+}
+
+.descr {
+  font-family: "Font-Regular500";
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+.ReadMoreLink {
+  font-family: "Font-Regular500";
+}
+
+.cta a {
+  background: #425ac6;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: transparent;
+  color: transparent;
+  position: relative;
+  font-family: "Font-Regular500";
+  letter-spacing: 1px;
+}
+
+
+.cta a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 100%;
+  height: 3px;
+  background: #425ac6;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+.cta a:hover::before {
+  transform: scaleX(1);
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+   width: 90%;
+  }
+}

@@ -1,0 +1,58 @@
+<div *ngIf='!rewind'>
+  Error! <br>
+  Redirect to 404 page. <br>
+</div>
+
+
+<div class="article-wrapper">
+  <div *ngIf='rewind' class="article">
+    <div class="heading">
+      <div class="title" *ngIf='rewind.title'>
+        {{rewind.title}}
+      </div>
+
+      <div class="author" *ngIf='rewind.interviewee'>
+        By: <a href="{{rewind.intervieweeProfile}}">{{rewind.interviewee}}</a> on {{rewind.date}}
+      </div>
+
+      <hr>
+    </div>
+
+    <div class="article-body">
+
+      <div class="intro">
+        <div class="section" *ngIf='rewind.intro.passage'>
+          <img *ngFor="let image of rewind.intro.image" src="{{image.path}}" alt="{{image.alt}}" class="image">
+          <div class="para" *ngFor='let intro of rewind.intro.passage'>
+            {{intro}}
+          </div>
+        </div>
+      </div>
+
+      <div class="body" *ngIf='rewind.body'>
+        <div class="section" *ngFor='let section of rewind.body;index as indexOfSection'>
+          <div data-aos="zoom-in">
+            <div class="question">
+              {{section.heading}}
+            </div>
+            <div class="para" *ngFor='let para of section.passage'>
+              {{para}}
+            </div>
+
+            <img src="{{section.image}}" alt="{{section.imageAlt}}" class="image" *ngIf='section.image'>
+          </div>
+        </div>
+      </div>
+
+      <div class="outro">
+        <div class="section" *ngIf='rewind.outro.passage'>
+          <div class="para" *ngFor='let outro of rewind.outro.passage'>
+            {{outro}}
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <app-share-buttons></app-share-buttons>
+  </div>
+</div>

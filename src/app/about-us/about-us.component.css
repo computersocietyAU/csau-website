@@ -1,0 +1,139 @@
+.container {
+  margin-top: 7%;
+}
+
+.membersDiv {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.membersListRow {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.membersImagePadding {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 50%;
+  width: 75%;
+}
+
+.membersName {
+  font-size: 110%;
+  font-weight: 600;
+  font-family: Font-Regular500;
+  margin-top: 5px;
+}
+
+.membersDetailsLink {
+  text-decoration: none;
+  color: black;
+}
+
+.membersDetailsLink:hover {
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.membersList {
+  padding-top: 2.5%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .membersImagePadding {
+    width: 50%;
+  }
+
+  .logondesc {
+    margin-top: 12% !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .logondesc {
+    margin-top: 10%;
+  }
+}
+
+a {
+  /* background: linear-gradient(
+    to right bottom,
+    rgba(255, 119, 40, 0.8),
+    rgba(255, 185, 0, 0.8)
+  ); */
+  background: #425ac6;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: transparent;
+  color: transparent;
+  position: relative;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 100%;
+  height: 3px;
+  background: #425ac6;
+  /* background: linear-gradient(
+    to right bottom,
+    rgba(255, 119, 40, 0.8),
+    rgba(255, 185, 0, 0.8)
+  ); */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
+
+.descr {
+  font-family: "Font-Regular500";
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+  font-size: 19px;
+  text-align: justify
+}
+
+.contentHeading {
+  font-family: Font-Medium600;
+}
+
+.developersUL a {
+  text-decoration: none;
+  font-family: Font-Regular500;
+  color: black !important;
+  font-size: 18px;
+  font-weight: bold;
+  background: none;
+}
+
+.developersUL li {
+  margin: 20px 0px;
+
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}

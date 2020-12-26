@@ -1,0 +1,18 @@
+ngx-gallery /deep/ .ngx-gallery-arrow {
+  color: black;
+}
+
+
+ngx-gallery /deep/ .ngx-gallery-close {
+  /* margin-top: 50px !important; */
+  position: relative !important;
+  top: 100px !important;
+  right: 40px !important;
+
+}
+
+ngx-gallery /deep/ .ngx-gallery-fullscreen {
+  position: relative !important;
+  top: 100px !important;
+  right: 75px !important;
+}

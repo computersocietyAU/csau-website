@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="image-data">
+    <div class="bgimg" style="background-image: url({{content.preview}});"></div>
+    <div class="publication-details">
+    </div>
+  </div>
+  <div class="post-data">
+    <h2 class="title" *ngIf="!recent">{{content.title}}</h2>
+    <h2 class="title" *ngIf="recent">{{recent}}</h2>
+    <h4 *ngIf="content.interviewee" class="sub-title">{{content.interviewee}}</h4>
+    <h5 *ngIf="content.author" class="sub-title">By {{content.author}}</h5>
+    <p *ngIf="content.department" class="department">{{content.department}}</p>
+    <div class="content-info">
+      <p class="description">{{content.description}}
+      </p>
+      <p>{{content.date}}</p>
+    </div>
+    <div class="cta" *ngIf="content.eventImages || content.interviewee || content.author">
+      <a (click)="gotoArticle(content.id)">{{link_text}} &rarr;</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+<div class="container mb-4">
+  <!--HEADING-->
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-sm-10">
+      <h1>CURSOR #{{cursor.id}}</h1>
+      <h2>{{cursor.title}}</h2>
+      <p class="subtitle">{{cursor.subtitle}}</p>
+      <p class="author">By {{cursor.author}} on {{cursor.date}}</p>
+      <hr>
+    </div>
+  </div>
+
+  <!--OTHERS-->
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-sm-10">
+      <p *ngFor="let sentence of cursor.others" class="others">{{sentence}}</p>
+    </div>
+  </div>
+
+  <!--BODY-->
+  <div class="row body justify-content-center" *ngFor="let passage of cursor.body">
+    <div class="class col-md-10 col-sm-10">
+      <div data-aos="zoom-in">
+
+        <h3 class="heading">{{passage.heading}}</h3>
+        <p class="content">{{passage.content}}</p>
+        <img *ngFor="let image of passage.imagePath" src="{{image}}" alt="" class="image">
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="class col-md-10 col-sm-10">
+      <app-share-buttons></app-share-buttons>
+    </div>
+  </div>
+</div>

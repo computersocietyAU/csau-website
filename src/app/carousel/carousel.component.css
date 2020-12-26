@@ -1,0 +1,52 @@
+.EventTitle {
+  font-family: "Font-Medium600";
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.carousel {
+  background: #a8a3b4;
+}
+
+.carousel .carousel-item {
+  height: 600px;
+}
+
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  /* height: auto;*/
+  width: 100%;
+  left: 0;
+  max-width: 100%;
+  /*min-height: 700px;*/
+}
+
+.carousel-caption {
+  background: #beb9c4;
+  opacity: 0.73;
+  color: black;
+}
+
+.ReadMoreLink {
+  font-family: "Font-Regular500";
+  font-weight: 800;
+  color: #425ac6;
+}
+
+
+
+.description {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: Font-Regular500;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+  font-weight: 500;
+}

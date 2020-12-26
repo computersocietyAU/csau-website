@@ -1,0 +1,9 @@
+.contentHeading {
+    font-family: Font-Medium600;
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+     width: 90%;
+    }
+  }
