@@ -58,3 +58,9 @@ h2,
 .subtitle {
   font-size: 18px;
 }
+
+.authorLink {
+  text-decoration: none;
+  color: #425ac6;
+}
+

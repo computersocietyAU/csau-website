@@ -87,6 +87,7 @@ export const CURSOR: Array<Cursor> = [
 
         ],
         author: "Prithivi Maruthachalam",
+        authorLink: "http://www.linkedin.com/in/prithivi-maruthachalam-3b8196179",
         department: "Computer Science and Engineering - Red Tag",
     },
 ];
@@ -108,5 +109,6 @@ export interface Cursor {
     others?: Array<string>;
     body: Array<CursorBody>;
     author: string;
+    authorLink?: string;
     department: string;
 }

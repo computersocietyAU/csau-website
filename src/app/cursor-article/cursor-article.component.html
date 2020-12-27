@@ -5,7 +5,7 @@
       <h1>CURSOR #{{cursor.id}}</h1>
       <h2>{{cursor.title}}</h2>
       <p class="subtitle">{{cursor.subtitle}}</p>
-      <p class="author">By {{cursor.author}} on {{cursor.date}}</p>
+      <p class="author">By <a *ngIf="cursor.authorLink" class="authorLink" href="{{cursor.authorLink}}">{{cursor.author}}</a><span *ngIf="!cursor.authorLink">{{cursor.author}}</span> on {{cursor.date}}</p>
       <hr>
     </div>
   </div>
