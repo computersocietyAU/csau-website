@@ -135,5 +135,6 @@ a:hover::before {
 @media only screen and (max-width: 576px) {
   .container {
     width: 90%;
+    margin-top: 80px !important;
   }
 }
