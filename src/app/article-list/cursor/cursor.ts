@@ -8,7 +8,7 @@ export const CURSOR: Array<Cursor> = [
         subtitle: "WHERE FANTASY MEETS FACTS!!",
         description: "We knew what are ethernet cables but can technology make humans act like ethernet cables? It may sound impossible but read this article about Redtacton to know how capable is the technology in this case.",
         preview: basePath + "redtacton/preview.png",
-        date: "December 25, 2020",
+        date: "December 29, 2020",
         body: [
             {
                 content: "Can you imagine swapping the business cards just by shaking your hands or being able to print a photo by placing one hand on the laptop and other on the printer?! It might sound fictitious but the Japanese Communication Company, Nippon Telegraph and Telephone Corporation(NTT), has brought this innovative idea into the real picture with prodigious RedTacton Technology. The RedTacton is a novel communication technology that pioneers the electronic future by using the human body surface as a high speed and safe network transmission path. It solely scrapes up the minute electric fields exuded on the surface of the body to transmit/receive data at 10 Mbps."
@@ -51,7 +51,7 @@ export const CURSOR: Array<Cursor> = [
         description: "Everyone is aware of the chicken or the egg problem of normal life. Here is what the author needs to say about computer science's chicken or the egg problem.",
         others: ["Foreword: The following is not original. It consists of the author’s opinions, impressions and primarily his understanding of a certain topic."],
         preview: basePath + "bootstrapping/preview.png",
-        date: "December 25, 2020",
+        date: "December 29, 2020",
         body: [
             {
                 content: "Although technology in its ideal form might be the closest thing to magic, it is my personal opinion that the pleasures of technology are better enjoyed by demystifying it. One of the more elegant things we’ve managed to do since the initial days of computing is abstraction. Lower level languages have given way to higher level languages that have allowed more people to be able to code. We all know that compilers and interpreters facilitate this abstraction. An extremely interesting facet of these compilers is that a lot of them are written in the language that they compile!"
