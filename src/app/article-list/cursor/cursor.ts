@@ -87,7 +87,7 @@ export const CURSOR: Array<Cursor> = [
 
         ],
         author: "Prithivi Maruthachalam",
-        authorLink: "http://www.linkedin.com/in/prithivi-maruthachalam-3b8196179",
+        authorLink: "https://www.linkedin.com/in/prithivi-maruthachalam-3b8196179",
         department: "Computer Science and Engineering - Red Tag",
     },
 ];
