@@ -18,5 +18,8 @@
     <div class="cta" *ngIf="content.eventImages || content.interviewee || content.author">
       <a (click)="gotoArticle(content.id)">{{link_text}} &rarr;</a>
     </div>
+    <div class="cta" *ngIf="content.registerLink">
+      <a href="{{content.registerLink}}" target="_blank">Register &rarr;</a>
+    </div>
   </div>
 </div>

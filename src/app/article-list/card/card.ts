@@ -6,8 +6,9 @@ export interface Card {
     preview: string;
     interviewee?: string;
     recent?: string;
-    eventImages?:boolean;
+    eventImages?: boolean;
+    registerLink?: string;
     // Cursor
-    author?:string;
-    department?:string;
+    author?: string;
+    department?: string;
 }

@@ -1,6 +1,14 @@
 const path = "assets/events/";
 export const EVENTS: Array<Event> = [
     {
+        id: 10,
+        title: "100 Days of Code",
+        date: "January 6, 2021",
+        description: "Strong fundamentals and practice make a coder perfect! CSAU brings 100 Days of Code, a coding challenge with specially curated questions to strengthen your fundamentals in data structures and algorithms and to ease your preparation for internships and campus placements. To all those who took a resolution to improve your coding skills this year, join us and let's chill out with some daily dose of coding!",
+        preview: path + "100_days_of_code.png",
+        registerLink: "https://docs.google.com/forms/d/e/1FAIpQLScpycNMVXlnI4UbNji-f4BZx1VNgrfu1teZlwFxVNy3p4Uhlw/viewform?usp=sf_link"
+    },
+    {
         id: 9,
         title: "T-UIZ, The Tech Quiz",
         date: "November 19, 2020",
@@ -341,6 +349,7 @@ export interface Event {
     date: string;
     preview: string;
     images?: Array<ImageData>;
+    registerLink?: string;
 }
 
 export interface ImageData {
