@@ -1,12 +1,28 @@
 const path = "assets/events/";
 export const EVENTS: Array<Event> = [
     {
+        id: 12,
+        title: "The Data Hack",
+        date: "March 7, 2021",
+        description: "Greetings from Robotics club of CEG and Computer Society of Anna University, To all the AI enthusiasts out there ! It's time to unleash your basics in the field of Artificial Intelligence. We collaboratively invite you to participate in our event 'The Data Hack'. The Data hack boasts the ability to make students understand Data science and also display your interest and passion which can eventually earn you exciting cash prizes and definitely a certificate of participation. Do participate !!",
+        preview: path + "data_hack.png",
+        registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSenHbsT0vz3ZXYWpapFKD8QKYNPeckmWS001amiVvkvEKkZGA/viewform"
+    },
+    {
+        id: 11,
+        title: "Web Dev Bootcamp",
+        date: "February 27, 2021",
+        description: "Do you want to be a software developer but don't know where to start? Check out this latest session on the basics of Full Stack Development conducted by Jothisankar, Engineering Manager at Pickyourtrail, powered by Busyhubs. As a professional who has over 8+ years of experience in the industry, he shares his tips and tricks on how to become a professional full stack developer.",
+        preview: path + "web_dev_bootcamp.png",
+        registerLink: "https://forms.gle/JTocb1xxYheFQihH6"
+    },
+    {
         id: 10,
         title: "100 Days of Code",
         date: "January 6, 2021",
         description: "Strong fundamentals and practice make a coder perfect! CSAU brings 100 Days of Code, a coding challenge with specially curated questions to strengthen your fundamentals in data structures and algorithms and to ease your preparation for internships and campus placements. To all those who took a resolution to improve your coding skills this year, join us and let's chill out with some daily dose of coding!",
         preview: path + "100_days_of_code.png",
-        registerLink: "https://docs.google.com/forms/d/e/1FAIpQLScpycNMVXlnI4UbNji-f4BZx1VNgrfu1teZlwFxVNy3p4Uhlw/viewform?usp=sf_link"
+        // registerLink: "https://docs.google.com/forms/d/e/1FAIpQLScpycNMVXlnI4UbNji-f4BZx1VNgrfu1teZlwFxVNy3p4Uhlw/viewform?usp=sf_link"
     },
     {
         id: 9,
